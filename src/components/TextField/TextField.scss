@@ -1,0 +1,26 @@
+.textField{
+    display: flex;
+    flex-direction: column;
+    gap: 5;
+
+    &-input{
+        border-color: #777;
+        border-radius: 10px;
+        width: 100%;
+        padding: 10px;
+        transition: transform 0.3s;
+
+        &:focus {
+            outline: none;
+            transform: scale(1.02);
+    
+        }
+    }
+    &-error {
+        color: red;
+    }
+    &-label{
+        font-weight: bold;
+    }
+
+}

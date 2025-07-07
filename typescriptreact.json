@@ -1,0 +1,10 @@
+{
+	"React Component with SCSS Import": {
+
+		"prefix": "st",
+		"body": [
+			"import './${WORKSPACE_FOLDER}.scss';"
+		],
+		"description": "импорт SCSS файла"
+	}
+}
